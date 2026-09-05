@@ -1,8 +1,6 @@
 .team-section {
-  background: #f4f4fd;
-}
-.team-container {
   padding: 120px 0;
+  background: #f4f4fd;
 }
 .team-list {
   display: flex;
