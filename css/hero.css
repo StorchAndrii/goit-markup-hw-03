@@ -1,6 +1,11 @@
 .hero-section {
   background: #2e2f42;
 }
+.hero-container {
+  padding: 188px 0;
+  max-width: 496px;
+  text-align: center;
+}
 
 .hero-title {
   font-weight: 700;
@@ -9,9 +14,9 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  margin-bottom: 48px;
 }
 .hero-btn {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -19,6 +24,9 @@
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  border-radius: 4px;
+  padding: 16px 32px 16px 32px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .hero-btn:hover,
 .hero-btn:focus {

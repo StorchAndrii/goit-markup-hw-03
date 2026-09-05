@@ -1,6 +1,9 @@
 .footer {
   background: #2e2f42;
 }
+.footer-container {
+  padding: 120px 0;
+}
 .footer-logo {
   font-weight: 700;
   font-size: 18px;
@@ -8,6 +11,8 @@
   letter-spacing: 0.03em;
   color: #f4f4fd;
   text-decoration: none;
+  display: block;
+  margin-bottom: 16px;
 }
 .footer-text {
   font-weight: 400;
@@ -15,4 +20,5 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
